@@ -1,0 +1,36 @@
+{
+  "name": "openmusic-pink-noise",
+  "version": "1.0.0",
+  "description": "Function to generate n samples of pink noise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openmusic/pink-noise"
+  },
+  "keywords": [
+    "web",
+    "audio",
+    "pink",
+    "noise"
+  ],
+  "author": "sole",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/openmusic/pink-noise/issues"
+  },
+  "homepage": "https://github.com/openmusic/pink-noise",
+  "devDependencies": {
+    "gulp": "^3.8.9",
+    "gulp-browserify": "^0.5.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.0.1",
+    "openmusic-oscilloscope": "^1.0.0"
+  },
+  "dependencies": {
+    "openmusic-white-noise": "^1.0.0"
+  }
+}
